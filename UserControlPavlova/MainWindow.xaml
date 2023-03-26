@@ -1,0 +1,17 @@
+﻿<Window x:Class="UserControlPavlova.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControlPavlova"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:RhombusControl Header="С 23 февраля" Description="Желаю в День защитника Отваги, сил, везения, И будут пусть открытыми Все двери к достижениям!" ColoredSource="/Assets/1663084492_19-mykaleidoscope-ru-p-pozdravleniya-s-23-fevralya-instagram-20.jpg" ></local:RhombusControl>
+            <local:RhombusControl Header="С 8 марта" Description="Праздник марта и тепла, Праздник света и добра, Праздник счастья и цветов, И приятных, нежных слов!" ColoredSource="/Assets/ec9ea5b768c22f8456bec00092e1fcdc.jpg" ></local:RhombusControl>
+            <local:RhombusControl Header="С днём рождения" Description="Счастья, радости, успеха, Ярких дней, веселья, смеха, Заводного настроенья — Для тебя всё в день рожденья!" ColoredSource="/Assets/1614533656_75-p-s-dnem-rozhdeniya-na-belom-fone-102.jpg" ></local:RhombusControl>
+            <local:RhombusControl Header="С новым годом" Description="Пусть Новый год подарит радость, Тепло сердец, любовь родных. Пусть будет каждый день Вам в сладость. Поменьше дней холодных, злых.  Желаю счастья полный ворох, Пусть жизнь играет красками. Веселья, радости, задора! Пусть будни станут сказками.  Пускай удача не отступит, Пусть окружает доброта, Пусть Новый год Вас не обидит И будет щедрым к Вам всегда." ColoredSource="/Assets/samye-luchshie-otkrytki-s-pozdravleniyami-s-novym-godom-2-1.jpg" ></local:RhombusControl>
+        </StackPanel>
+    </Grid>
+</Window>
